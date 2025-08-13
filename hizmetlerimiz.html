@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz - Doç. Dr. Özgül Düzgün</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <span><i class="fas fa-envelope"></i> info@ozgulduzgun.com.tr</span>
+                        <span><i class="fas fa-phone"></i> +90 541 603 0103</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/ozgulduzgunlogo.png" alt="Dr. Özgül Düzgün" height="80">
+                    <div class="brand-text">
+                        <div class="doctor-name">Doç. Dr. Özgül DÜZGÜN</div>
+                        <div class="doctor-title">Cerrahi Onkoloji Uzmanı</div>
+                    </div>
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="desktop-menu d-none d-lg-block">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkimda.html">Hakkımda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="hizmetlerimiz.html">
+                                Hizmetlerimiz
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><h6 class="dropdown-header">Kanser Türleri</h6></li>
+                                <li><a class="dropdown-item" href="hizmetler/meme-kanseri.html">Meme Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/mide-kanseri.html">Mide Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kalin-bagirsak-kanseri.html">Kalın Bağırsak Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/ozofagus-kanseri.html">Özofagus Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/tiroid-kanseri.html">Tiroid Kanseri</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Cerrahi İşlemler</h6></li>
+                                <li><a class="dropdown-item" href="hizmetler/cerrahi-onkoloji.html">Cerrahi Onkoloji</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/gastrointestinal-cerrahi.html">Gastrointestinal Cerrahi</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/hipec.html">Hipec</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/laparoskopik-cerrahi.html">Laparoskopik Cerrahi</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/reflu-mide-fitigi.html">Reflü ve Mide Fıtığı</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="yayinlarim.html">Yayınlarım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle d-lg-none" type="button" aria-label="Toggle mobile menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item">
+                        <a href="index.html" class="mobile-menu-link">
+                            <i class="fas fa-home"></i>
+                            <span>Ana Sayfa</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="hakkimda.html" class="mobile-menu-link">
+                            <i class="fas fa-user-md"></i>
+                            <span>Hakkımda</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item has-submenu">
+                        <div class="mobile-menu-header">
+                            <a href="hizmetlerimiz.html" class="mobile-menu-link">
+                                <i class="fas fa-stethoscope"></i>
+                                <span>Hizmetlerimiz</span>
+                            </a>
+                            <button class="submenu-toggle" aria-label="Toggle submenu">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <ul class="mobile-submenu">
+                            <li><a href="hizmetler/meme-kanseri.html">Meme Kanseri</a></li>
+                            <li><a href="hizmetler/mide-kanseri.html">Mime Kanseri</a></li>
+                            <li><a href="hizmetler/kalin-bagirsak-kanseri.html">Kalın Bağırsak Kanseri</a></li>
+                            <li><a href="hizmetler/ozofagus-kanseri.html">Özofagus Kanseri</a></li>
+                            <li><a href="hizmetler/tiroid-kanseri.html">Tiroid Kanseri</a></li>
+                            <li><a href="hizmetler/cerrahi-onkoloji.html">Cerrahi Onkoloji</a></li>
+                            <li><a href="hizmetler/gastrointestinal-cerrahi.html">Gastrointestinal Cerrahi</a></li>
+                            <li><a href="hizmetler/hipec.html">Hipec</a></li>
+                            <li><a href="hizmetler/laparoskopik-cerrahi.html">Laparoskopik Cerrahi</a></li>
+                            <li><a href="hizmetler/reflu-mide-fitigi.html">Reflü ve Mide Fıtığı</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="yayinlarim.html" class="mobile-menu-link">
+                            <i class="fas fa-book-medical"></i>
+                            <span>Yayınlarım</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="iletisim.html" class="mobile-menu-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>İletişim</a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title">Hizmetlerimiz</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Hizmetlerimiz</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kanser Türleri Section -->
+    <section class="cancer-types-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Kanser Türleri</h2>
+                    <p class="section-subtitle text-center">Cerrahi onkoloji alanında uzmanlaştığımız kanser türleri ve tedavi yöntemleri</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4" id="meme-kanseri">
+                    <div class="cancer-card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/memekanseri.jpg" alt="Meme Kanseri" class="cancer-image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cancer-content">
+                                    <h3>Meme Kanseri</h3>
+                                    <p class="cancer-description">
+                                        Meme kanseri kadınlarda en sık görülen kanser türüdür. Erken teşhis ve modern 
+                                        tedavi yöntemleriyle başarılı sonuçlar elde edilmektedir.
+                                    </p>
+                                    <div class="cancer-features">
+                                        <span class="feature-badge">Erken Teşhis</span>
+                                        <span class="feature-badge">Laparoskopik Cerrahi</span>
+                                        <span class="feature-badge">Onkoplastik Cerrahi</span>
+                                    </div>
+                                    <a href="hizmetler/meme-kanseri.html" class="btn btn-outline-primary btn-sm">
+                                        Detaylı Bilgi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" id="mide-kanseri">
+                    <div class="cancer-card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/midekanseri.jpg" alt="Mide Kanseri" class="cancer-image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cancer-content">
+                                    <h3>Mide Kanseri</h3>
+                                    <p class="cancer-description">
+                                        Mide kanseri tedavisinde laparoskopik ve robotik cerrahi teknikleri kullanılarak 
+                                        minimal invaziv yaklaşımlar uygulanmaktadır.
+                                    </p>
+                                    <div class="cancer-features">
+                                        <span class="feature-badge">Laparoskopik</span>
+                                        <span class="feature-badge">Robotik Cerrahi</span>
+                                        <span class="feature-badge">D2 Lenfadenektomi</span>
+                                    </div>
+                                    <a href="hizmetler/mide-kanseri.html" class="btn btn-outline-primary btn-sm">
+                                        Detaylı Bilgi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" id="kalin-bagirsak-kanseri">
+                    <div class="cancer-card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/kalınbagırsakkanseri.jpg" alt="Kalın Bağırsak Kanseri" class="cancer-image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cancer-content">
+                                    <h3>Kalın Bağırsak Kanseri</h3>
+                                    <p class="cancer-description">
+                                        Kolorektal kanserlerde minimal invaziv cerrahi teknikler ve ERAS protokolü 
+                                        ile hızlı iyileşme sağlanmaktadır.
+                                    </p>
+                                    <div class="cancer-features">
+                                        <span class="feature-badge">ERAS Protokolü</span>
+                                        <span class="feature-badge">Minimal İnvaziv</span>
+                                        <span class="feature-badge">Hızlı İyileşme</span>
+                                    </div>
+                                    <a href="hizmetler/kalin-bagirsak-kanseri.html" class="btn btn-outline-primary btn-sm">
+                                        Detaylı Bilgi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" id="ozofagus-kanseri">
+                    <div class="cancer-card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/ozofaguskanseri.jpg" alt="Özofagus Kanseri" class="cancer-image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cancer-content">
+                                    <h3>Özofagus Kanseri</h3>
+                                    <p class="cancer-description">
+                                        Yemek borusu kanserinde ileri cerrahi teknikler ve multimodal tedavi 
+                                        yaklaşımları uygulanmaktadır.
+                                    </p>
+                                    <div class="cancer-features">
+                                        <span class="feature-badge">İleri Cerrahi</span>
+                                        <span class="feature-badge">Multimodal Tedavi</span>
+                                        <span class="feature-badge">Minimal İnvaziv</span>
+                                    </div>
+                                    <a href="hizmetler/ozofagus-kanseri.html" class="btn btn-outline-primary btn-sm">
+                                        Detaylı Bilgi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" id="tiroid-kanseri">
+                    <div class="cancer-card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/tiroidkanseri.jpg" alt="Tiroid Kanseri" class="cancer-image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cancer-content">
+                                    <h3>Tiroid Kanseri</h3>
+                                    <p class="cancer-description">
+                                        Tiroid kanserinde modern cerrahi teknikler ve kişiselleştirilmiş tedavi 
+                                        yaklaşımları ile mükemmel sonuçlar elde edilmektedir.
+                                    </p>
+                                    <div class="cancer-features">
+                                        <span class="feature-badge">Nöromonitörizasyon</span>
+                                        <span class="feature-badge">Minimal İnvaziv</span>
+                                        <span class="feature-badge">Mükemmel Prognoz</span>
+                                    </div>
+                                    <a href="hizmetler/tiroid-kanseri.html" class="btn btn-outline-primary btn-sm">
+                                        Detaylı Bilgi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cerrahi İşlemler Section -->
+    <section class="surgical-procedures-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Cerrahi İşlemler</h2>
+                    <p class="section-subtitle text-center">Uzmanlık alanımızda uyguladığımız cerrahi teknikler</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="procedure-card">
+                        <img src="images/cerrahionkoloji.jpg" alt="Cerrahi Onkoloji" class="procedure-image">
+                        <div class="procedure-content">
+                            <h3>Cerrahi Onkoloji</h3>
+                            <p>Kanser hastalıklarının cerrahi yöntemlerle tedavisi, lenf nodu diseksiyonu ve rekonstrüktif cerrahi işlemler.</p>
+                            <ul class="procedure-features">
+                                <li>Kanserli doku çıkarımı</li>
+                                <li>Lenf nodu diseksiyonu</li>
+                                <li>Rekonstrüktif cerrahi</li>
+                            </ul>
+                            <a href="hizmetler/cerrahi-onkoloji.html" class="btn btn-outline-primary btn-sm">
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="procedure-card">
+                        <img src="images/gastrointestinalcerrahi.jpg" alt="Gastrointestinal Cerrahi" class="procedure-image">
+                        <div class="procedure-content">
+                            <h3>Gastrointestinal Cerrahi</h3>
+                            <p>Mide, bağırsak ve sindirim sistemi organlarının cerrahi hastalıklarının tedavisi.</p>
+                            <ul class="procedure-features">
+                                <li>Mide cerrahisi</li>
+                                <li>Bağırsak cerrahisi</li>
+                                <li>Pankreas cerrahisi</li>
+                            </ul>
+                            <a href="hizmetler/gastrointestinal-cerrahi.html" class="btn btn-outline-primary btn-sm">
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="procedure-card">
+                        <img src="images/laparoskopikcerrahi.jpg" alt="Laparoskopik Cerrahi" class="procedure-image">
+                        <div class="procedure-content">
+                            <h3>Laparoskopik Cerrahi</h3>
+                            <p>Minimal invaziv cerrahi tekniklerle daha az ağrı ve hızlı iyileşme sağlayan modern cerrahi yöntemler.</p>
+                            <ul class="procedure-features">
+                                <li>Küçük kesiler</li>
+                                <li>Hızlı iyileşme</li>
+                                <li>Düşük komplikasyon</li>
+                            </ul>
+                            <a href="hizmetler/laparoskopik-cerrahi.html" class="btn btn-outline-primary btn-sm">
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="procedure-card">
+                        <div class="procedure-content">
+                            <h3>Reflü ve Mide Fıtığı</h3>
+                            <p>Laparoskopik cerrahi ile reflü hastalığı ve mide fıtığı tedavisi, uzun dönem başarılı sonuçlar.</p>
+                            <ul class="procedure-features">
+                                <li>Laparoskopik fundoplikasyon</li>
+                                <li>Mide fıtığı onarımı</li>
+                                <li>Reflü tedavisi</li>
+                            </ul>
+                            <a href="hizmetler/reflu-mide-fitigi.html" class="btn btn-outline-primary btn-sm">
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="procedure-card">
+                        <div class="procedure-content">
+                            <h3>Hipec (Hipertermik İntraperitoneal Kemoterapi)</h3>
+                            <p>Karın içi yayılmış kanserlerde sıcak kemoterapi ile birlikte cerrahi tedavi uygulanması.</p>
+                            <ul class="procedure-features">
+                                <li>Sitoredüktif cerrahi</li>
+                                <li>Hipertermik kemoterapi</li>
+                                <li>Peritoneal karsinomatosis</li>
+                            </ul>
+                            <a href="hizmetler/hipec.html" class="btn btn-outline-primary btn-sm">
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>Dr. Özgül Düzgün</h5>
+                    <p>Cerrahi Onkoloji alanında uzmanlaşmış, deneyimli ve güvenilir hekim kadromuzla 
+                    hastalarımıza en yüksek kalitede hizmet sunuyoruz.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Hızlı Linkler</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimda.html">Hakkımda</a></li>
+                        <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                        <li><a href="yayinlarim.html">Yayınlarım</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>İletişim Bilgileri</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Sağlık Bilimleri Üniversitesi İstanbul Ümraniye Eğitim ve Araştırma Hastanesi</p>
+                        <p><i class="fas fa-phone"></i> +90 541 603 0103</p>
+                        <p><i class="fas fa-envelope"></i> info@ozgulduzgun.com.tr</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Dr. Özgül Düzgün. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Meme Kanseri Modal -->
+    <div class="modal fade" id="memeKanseriModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meme Kanseri Tedavisi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/memekanseri.jpg" alt="Meme Kanseri" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Belirtiler:</h6>
+                            <ul>
+                                <li>Memede kitle</li>
+                                <li>Meme başında değişiklik</li>
+                                <li>Meme derisinde değişiklik</li>
+                                <li>Koltuk altında şişlik</li>
+                            </ul>
+                            <h6>Tedavi Yöntemleri:</h6>
+                            <ul>
+                                <li>Lumpektomi (Kısmi meme çıkarımı)</li>
+                                <li>Mastektomi (Tam meme çıkarımı)</li>
+                                <li>Onkoplastik cerrahi</li>
+                                <li>Lenf nodu diseksiyonu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mide Kanseri Modal -->
+    <div class="modal fade" id="mideKanseriModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mide Kanseri Tedavisi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/midekanseri.jpg" alt="Mide Kanseri" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Belirtiler:</h6>
+                            <ul>
+                                <li>Karın ağrısı</li>
+                                <li>Bulantı ve kusma</li>
+                                <li>İştahsızlık</li>
+                                <li>Kilo kaybı</li>
+                            </ul>
+                            <h6>Tedavi Yöntemleri:</h6>
+                            <ul>
+                                <li>Laparoskopik gastrektomi</li>
+                                <li>D2 lenfadenektomi</li>
+                                <li>Robotik cerrahi</li>
+                                <li>Kemoterapi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kalın Bağırsak Kanseri Modal -->
+    <div class="modal fade" id="kalinBagirsakKanseriModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kalın Bağırsak Kanseri Tedavisi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/kalınbagırsakkanseri.jpg" alt="Kalın Bağırsak Kanseri" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Belirtiler:</h6>
+                            <ul>
+                                <li>Dışkıda kan</li>
+                                <li>Bağırsak alışkanlığında değişiklik</li>
+                                <li>Karın ağrısı</li>
+                                <li>Kilo kaybı</li>
+                            </ul>
+                            <h6>Tedavi Yöntemleri:</h6>
+                            <ul>
+                                <li>Laparoskopik kolektomi</li>
+                                <li>ERAS protokolü</li>
+                                <li>Minimal invaziv cerrahi</li>
+                                <li>Kemoterapi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Özofagus Kanseri Modal -->
+    <div class="modal fade" id="ozofagusKanseriModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Özofagus Kanseri Tedavisi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/ozofaguskanseri.jpg" alt="Özofagus Kanseri" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Belirtiler:</h6>
+                            <ul>
+                                <li>Yutma güçlüğü</li>
+                                <li>Göğüs ağrısı</li>
+                                <li>Kilo kaybı</li>
+                                <li>Mide yanması</li>
+                            </ul>
+                            <h6>Tedavi Yöntemleri:</h6>
+                            <ul>
+                                <li>Özofagektomi</li>
+                                <li>Laparoskopik cerrahi</li>
+                                <li>Kemoterapi</li>
+                                <li>Radyoterapi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

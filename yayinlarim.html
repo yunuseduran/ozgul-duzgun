@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yayınlarım -Doç. Dr. Özgül Düzgün</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <span><i class="fas fa-envelope"></i> info@ozgulduzgun.com.tr</span>
+                        <span><i class="fas fa-phone"></i> +90 541 603 0103</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/ozgulduzgunlogo.png" alt="Dr. Özgül Düzgün" height="80">
+                    <div class="brand-text">
+                        <div class="doctor-name">Doç. Dr. Özgül DÜZGÜN</div>
+                        <div class="doctor-title">Cerrahi Onkoloji Uzmanı</div>
+                    </div>
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="desktop-menu d-none d-lg-block">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkimda.html">Hakkımda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="hizmetlerimiz.html">
+                                Hizmetlerimiz
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><h6 class="dropdown-header">Kanser Türleri</h6></li>
+                                <li><a class="dropdown-item" href="hizmetler/meme-kanseri.html">Meme Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/mide-kanseri.html">Mime Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/kalin-bagirsak-kanseri.html">Kalın Bağırsak Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/ozofagus-kanseri.html">Özofagus Kanseri</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/tiroid-kanseri.html">Tiroid Kanseri</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Cerrahi İşlemler</h6></li>
+                                <li><a class="dropdown-item" href="hizmetler/cerrahi-onkoloji.html">Cerrahi Onkoloji</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/gastrointestinal-cerrahi.html">Gastrointestinal Cerrahi</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/hipec.html">Hipec</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/laparoskopik-cerrahi.html">Laparoskopik Cerrahi</a></li>
+                                <li><a class="dropdown-item" href="hizmetler/reflu-mide-fitigi.html">Reflü ve Mide Fıtığı</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="yayinlarim.html">Yayınlarım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle d-lg-none" type="button" aria-label="Toggle mobile menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay">
+            <nav class="mobile-menu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item">
+                        <a href="index.html" class="mobile-menu-link">
+                            <i class="fas fa-home"></i>
+                            <span>Ana Sayfa</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="hakkimda.html" class="mobile-menu-link">
+                            <i class="fas fa-user-md"></i>
+                            <span>Hakkımda</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item has-submenu">
+                        <div class="mobile-menu-header">
+                            <a href="hizmetlerimiz.html" class="mobile-menu-link">
+                                <i class="fas fa-stethoscope"></i>
+                                <span>Hizmetlerimiz</span>
+                            </a>
+                            <button class="submenu-toggle" aria-label="Toggle submenu">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <ul class="mobile-submenu">
+                            <li><a href="hizmetler/meme-kanseri.html">Meme Kanseri</a></li>
+                            <li><a href="hizmetler/mide-kanseri.html">Mide Kanseri</a></li>
+                            <li><a href="hizmetler/kalin-bagirsak-kanseri.html">Kalın Bağırsak Kanseri</a></li>
+                            <li><a href="hizmetler/ozofagus-kanseri.html">Özofagus Kanseri</a></li>
+                            <li><a href="hizmetler/tiroid-kanseri.html">Tiroid Kanseri</a></li>
+                            <li><a href="hizmetler/cerrahi-onkoloji.html">Cerrahi Onkoloji</a></li>
+                            <li><a href="hizmetler/gastrointestinal-cerrahi.html">Gastrointestinal Cerrahi</a></li>
+                            <li><a href="hizmetler/hipec.html">Hipec</a></li>
+                            <li><a href="hizmetler/laparoskopik-cerrahi.html">Laparoskopik Cerrahi</a></li>
+                            <li><a href="hizmetler/reflu-mide-fitigi.html">Reflü ve Mide Fıtığı</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="yayinlarim.html" class="mobile-menu-link">
+                            <i class="fas fa-book-medical"></i>
+                            <span>Yayınlarım</span>
+                        </a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <a href="iletisim.html" class="mobile-menu-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>İletişim</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title">Yayınlarım</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Yayınlarım</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Overview -->
+    <section class="publications-overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Bilimsel Yayınlar</h2>
+                    <p class="section-subtitle text-center">Uluslararası hakemli dergilerde yayınlanan makaleler ve bilimsel çalışmalar</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="stats-number">28+</div>
+                        <div class="stats-label">Bilimsel Makale</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="stats-number">15+</div>
+                        <div class="stats-label">Uluslararası Dergi</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="stats-number">500+</div>
+                        <div class="stats-label">Atıf</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stats-number">20+</div>
+                        <div class="stats-label">Ortak Yazar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications List -->
+    <section class="publications-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="subsection-title text-center">Uluslararası Hakemli Dergilerde Yayınlanan Makaleler</h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2025</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">Real-world data on Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC)-directed therapy in patients with peritoneal metastases; Third annual report from the ISSPP PIPAC database.</h4>
+                        <p class="publication-authors">Jørgensen Magnus Skov, Hansen Pernille Schjødt, Fristrup Claus W., Hübner Martin, So Jimmy, Ezanno Anne-Cecile, Hewett Peter, Marin Miguel Ruiz, Rezniczek, Günther A, <strong>DÜZGÜN ÖZGÜL</strong>, Pocard Marc, Casella Francesco, Lay Laura, Aral Marisa, Jäger Tarkan, Laminger Felix, Glehen Oliver, Goutard Claire Angéline, Villeneuve Laurent, Di Giorgio Andrea, Mortensen Michael Bau</p>
+                        <div class="publication-details">
+                            <span class="journal">Pleura and Peritoneum</span>
+                            <span class="doi">DOI: 10.1515/pp-2025-0013</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2025</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">D2 Lymphadenectomy and Complete Mesogastric Excision in Gastric Cancer: 5-Year Results from a Single Center.</h4>
+                        <p class="publication-authors"><strong>ÖZCAN PIRILTI</strong>, <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Istanbul Medical Journal, 26(2), 140-145</span>
+                            <span class="doi">DOI: 10.4274/imj.galenos.2025.30040</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2024</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">The Importance of Preoperative NLR, PLR, and MPV Values in Predicting the Risk of Complications in Colorectal Peritoneal Carcinomatosis.</h4>
+                        <p class="publication-authors"><strong>ÖZCAN PIRILTI</strong>, <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Journal of Personalized Medicine, 14(9), 916</span>
+                            <span class="doi">DOI: 10.3390/jpm14090916</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2024</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">The Role of Secondary Cytoreduction and Hyperthermic Intraperitoneal Chemotherapy in Recurrent Ovarian Peritoneal Carcinomatosis.</h4>
+                        <p class="publication-authors"><strong>ÖZCAN PIRILTI</strong>, <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Journal of Personalized Medicine, 14(7)</span>
+                            <span class="doi">DOI: 10.3390/jpm14070742</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2024</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">The management of goal-directed fluid therapy during cytoreductive surgery and hyperthermic intraperitoneal chemotherapy.</h4>
+                        <p class="publication-authors"><strong>TUNCEL ZELİHA</strong>, <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Medicine, 103(20)</span>
+                            <span class="doi">DOI: 10.1097/MD.0000000000038187</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2024</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">SF-CORNER (splenic flexure colorectal cancer): an international survey of operative approaches and outcomes for cancers of the splenic flexure.</h4>
+                        <p class="publication-authors">Sekhar H, Dyer M, Moug S, Khan M, Vimalachandran D, Mitchell PJ, West NP, <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Colorectal Disease</span>
+                            <span class="doi">DOI: 10.1111/codi.16895</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2023</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">Second annual report from the ISSPP PIPAC database.</h4>
+                        <p class="publication-authors">Mortensen Michael Bau, Casella Francesco, <strong>DÜZGÜN ÖZGÜL</strong>, GLEHEN OLİVİER, Hewett Peter, Hübner Martin, Jørgensen Magnus Skov, Königsrainer Alfred, Marin Miguel, Pocard Marc, Rezniczek Günther, So Jimmy, Fristrup Claus Wilki</p>
+                        <div class="publication-details">
+                            <span class="journal">Walter de Gruyter GmbH, 8()</span>
+                            <span class="doi">DOI: 10.1515/pp-2023-0047</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2023</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">Pancreatic surgery outcomes: multicentre prospective snapshot study in 67 countries.</h4>
+                        <p class="publication-authors"><strong>DÜZGÜN ÖZGÜL</strong>, <strong>ÖZKAN ÖMER FARUK</strong>, <strong>ÜLGÜR GENÇ HANİFE ŞEYDA</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">British Journal of Surgery, 111 ()</span>
+                            <span class="doi">DOI: 10.1093/bjs/znad330</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2023</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">Evaluation of a quality improvement intervention to reduce anastomotic leak following right colectomy (EAGLE): pragmatic, batched stepped-wedge, cluster-randomized trial in 64 countries.</h4>
+                        <p class="publication-authors"><strong>DÜZGÜN ÖZGÜL</strong>, <strong>ÖZKAN ÖMER FARUK</strong>, <strong>ÜLGÜR HANİFE ŞEYDA</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">Oxford University Press (OUP)1-18</span>
+                            <span class="doi">DOI: 10.1093/bjs/znad370</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <span class="publication-year">2023</span>
+                            <span class="publication-type">Makale</span>
+                        </div>
+                        <h4 class="publication-title">Stoma-free survival after anastomotic leak following rectal cancer resection: worldwide cohort of 2470 patients.</h4>
+                        <p class="publication-authors">Greijdanus Nynke, wienholts keido, ubels sander, talboom kevin, hannik gerjon, wolhius albert, de Lacy, F. Borja, Lefevre Jérémie H, Solomon Michael, Frasson Matteo, Rotholtz Nicolas, Denost Quentin, Peres Rodrigo O., Konishi Tsuyoshi, Panis Yves, Rutegård Martin, Hompes Roel, Rosman Camiel, van Workum Frans, Tanis Pieter J., de Wilt Johannes H.W., <strong>DÜZGÜN ÖZGÜL</strong></p>
+                        <div class="publication-details">
+                            <span class="journal">The British journal of surgery, 1(14)</span>
+                            <span class="doi">DOI: 10.1093/bjs/znad311</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-primary btn-lg" id="loadMoreBtn">
+                        <i class="fas fa-plus"></i> Daha Fazla Yayın Göster
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section class="research-areas">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Araştırma Alanları</h2>
+                    <p class="section-subtitle text-center">Uzmanlık alanlarımız ve odaklandığımız konular</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h4>Peritoneal Karsinomatosis</h4>
+                        <p>Karın içi yayılmış kanserlerde sitoredüktif cerrahi ve hipertermik intraperitoneal kemoterapi (HIPEC) uygulamaları.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h4>Moleküler Onkoloji</h4>
+                        <p>Kanser tedavisinde kişiselleştirilmiş yaklaşımlar ve biyobelirteç araştırmaları.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>Minimal İnvaziv Cerrahi</h4>
+                        <p>Laparoskopik ve robotik cerrahi tekniklerin onkolojik cerrahide uygulanması.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>Dr. Özgül Düzgün</h5>
+                    <p>Cerrahi Onkoloji alanında uzmanlaşmış, deneyimli ve güvenilir hekim kadromuzla 
+                    hastalarımıza en yüksek kalitede hizmet sunuyoruz.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Hızlı Linkler</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimda.html">Hakkımda</a></li>
+                        <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                        <li><a href="yayinlarim.html">Yayınlarım</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>İletişim Bilgileri</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Sağlık Bilimleri Üniversitesi İstanbul Ümraniye Eğitim ve Araştırma Hastanesi</p>
+                        <p><i class="fas fa-phone"></i> +90 541 603 0103</p>
+                        <p><i class="fas fa-envelope"></i> info@ozgulduzgun.com.tr</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Dr. Özgül Düzgün. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
