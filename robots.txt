@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ozgul-duzgun.vercel.app/sitemap.xml
+
+# Disallow private directories
+Disallow: /admin/
+Disallow: /*.json$
+
+# Allow important medical content
+Allow: /hizmetler/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl delay
+Crawl-delay: 1
