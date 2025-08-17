@@ -1,0 +1,61 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/hakkimda",
+      "destination": "/hakkimda.html"
+    },
+    {
+      "source": "/hizmetlerimiz",
+      "destination": "/hizmetlerimiz.html"
+    },
+    {
+      "source": "/yayinlarim",
+      "destination": "/yayinlarim.html"
+    },
+    {
+      "source": "/iletisim",
+      "destination": "/iletisim.html"
+    },
+    {
+      "source": "/hizmetler/cerrahi-onkoloji",
+      "destination": "/hizmetler/cerrahi-onkoloji.html"
+    },
+    {
+      "source": "/hizmetler/gastrointestinal-cerrahi",
+      "destination": "/hizmetler/gastrointestinal-cerrahi.html"
+    },
+    {
+      "source": "/hizmetler/hipec",
+      "destination": "/hizmetler/hipec.html"
+    },
+    {
+      "source": "/hizmetler/kalin-bagirsak-kanseri",
+      "destination": "/hizmetler/kalin-bagirsak-kanseri.html"
+    },
+    {
+      "source": "/hizmetler/laparoskopik-cerrahi",
+      "destination": "/hizmetler/laparoskopik-cerrahi.html"
+    },
+    {
+      "source": "/hizmetler/mide-kanseri",
+      "destination": "/hizmetler/mide-kanseri.html"
+    },
+    {
+      "source": "/hizmetler/ozofagus-kanseri",
+      "destination": "/hizmetler/ozofagus-kanseri.html"
+    },
+    {
+      "source": "/hizmetler/pelvik-egzenterasyon",
+      "destination": "/hizmetler/pelvik-egzenterasyon.html"
+    },
+    {
+      "source": "/hizmetler/pipac-tedavisi",
+      "destination": "/hizmetler/pipac-tedavisi.html"
+    }
+  ],
+  "cleanUrls": true
+}
