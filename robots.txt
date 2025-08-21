@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ozgul-duzgun.vercel.app/sitemap.xml
+Sitemap: https://ozgulduzgun.com/sitemap.xml
 
 # Disallow private directories
 Disallow: /admin/
